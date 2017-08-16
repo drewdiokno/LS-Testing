@@ -4,7 +4,7 @@
   "description": "Topics:",
   "main": "index.js",
   "scripts": {
-    "test": "eslint */tests/*.js && eslint */src/*.js && mocha -R nyan",
+    "test": "mocha basic-javascript/tests/project-3.test.js -R nyan",
     "watch": "npm test -- --watch"
   },
   "author": "",
